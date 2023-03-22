@@ -1,0 +1,11 @@
+apiVersion: coordination.k8s.io/v1
+kind: Lease
+metadata:
+  name: nodepool-sdbstore
+  namespace: sfdc-system
+spec:
+  acquireTime: "2022-10-28T16:33:55.245021Z"
+  holderIdentity: lease-sample-1
+  leaseDurationSeconds: 86400
+  leaseTransitions: 2
+  renewTime: "2022-10-28T16:33:55.245021Z"

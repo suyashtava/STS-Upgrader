@@ -1,0 +1,11 @@
+apiVersion: coordination.k8s.io/v1
+kind: Lease
+metadata:
+  name: nodepool-zk
+  namespace: sdb
+spec:
+  acquireTime: "2022-12-06T16:23:01.345699Z"
+  holderIdentity: nodecycler
+  leaseDurationSeconds: 120
+  leaseTransitions: 0
+  renewTime: "2022-12-06T16:24:00.172788Z"

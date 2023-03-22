@@ -1,0 +1,6 @@
+mock_secret: []
+false_positive:
+  - id: k8s-stsupgrader://vendor/k8s.io/client-go/tools/clientcmd/overrides.go_5593b4cf4d13177e1d28979a6ad4796aa73ac51b
+    justification: This is not a secret its the name of a command line param in code
+non_production_secret: []
+production_secret: []
